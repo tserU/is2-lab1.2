@@ -1,0 +1,106 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Iterator;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+
+import businessLogic.ForumBL;
+import database.ForumDAOInterface;
+import domain.Purchase;
+import domain.User;
+
+class ForumBLgetBonusTest {
+
+
+	String id;
+	String name;
+	String telephone;
+	User u = new User("75075708M","Jon","654478722");
+	private ForumDAOInterface forumDAO = Mockito.mock(ForumDAOInterface.class);
+	private ForumBL sut = new ForumBL(forumDAO);
+	
+	@Test
+	@DisplayName("Test0: Id es null")
+	public void test0() {
+		id = null;
+		
+		assertThrows(Exception.class,
+		         ()->sut.getBonus(id));
+	}
+	
+	@Test
+	@DisplayName("Test1: id no es DNI ")
+	public void test1() {
+		id = "75075708K";
+		
+		assertThrows(Exception.class,
+				()->sut.getBonus(id));
+	}
+	
+	@Test
+	@DisplayName("Test2: Id tiene caracteres especiales")
+	public void test2() {
+		id ="$$075708M";
+		
+		assertThrows(Exception.class,
+				()-> sut.getBonus(id));
+	}
+	
+	@Test
+	@DisplayName("Test3:id no es socio")
+	public void test3() {
+		id = "75075708M";
+		
+		Mockito.doReturn(null).when(forumDAO).
+		             getUserDAO(Mockito.anyString());
+		
+		assertThrows(Exception.class,
+				()->sut.getBonus(id));
+	}
+	
+	@Test
+	@DisplayName("Test4:id no tiene teléfono")
+	public void test4() {
+		
+		id = "75075708M";
+		name = "Jon";
+		telephone = null;
+		
+		Mockito.doReturn(new User(id,name,telephone)).when(forumDAO).
+		                getUserDAO(Mockito.anyString());
+		
+		assertThrows(Exception.class,
+				()-> sut.getBonus(id));
+	}
+
+	@Test
+	@DisplayName("Test5:no ha comprado artículos en fechas 17/9 a 6/10")
+	public void test5() {
+		
+		try {
+			id = "75075708M";
+			Mockito.doReturn(u).when(forumDAO).
+			          getUserDAO(Mockito.anyString());
+			
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			Date firstDate = sdf.parse("17/09/2019");
+			Date lastDate = sdf.parse("06/10/2019");
+
+			Mockito.doReturn(false).when(forumDAO).
+			           getPurchasesDAO(Mockito.any(User.class), Mockito.any(Date.class), Mockito.any(Date.class));
+		double expected = 0.0;
+		double obtained = sut.getBonus(id);
+		assertEquals(expected,obtained);
+		
+		}catch(Exception e) {
+			fail("If any exception is thrown, it is not working properly");
+		}
+	}
+	
+}

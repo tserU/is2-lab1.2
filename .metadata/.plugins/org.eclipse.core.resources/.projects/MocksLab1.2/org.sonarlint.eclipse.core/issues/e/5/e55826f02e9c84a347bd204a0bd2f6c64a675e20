@@ -1,0 +1,9 @@
+
+f
+java:S1118
+":Add a private constructor to hide the implicit public one.(õ¶Ñ¦H†RMAJORZ
+CODE_SMELL
+c
+java:S4973%"9Use the "equals" method if value comparison was intended.(µÍóÅüÿÿÿÿH‡RMAJORZBUG
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…Ç¯êÿÿÿÿÿHˆRMINORZ
+CODE_SMELL

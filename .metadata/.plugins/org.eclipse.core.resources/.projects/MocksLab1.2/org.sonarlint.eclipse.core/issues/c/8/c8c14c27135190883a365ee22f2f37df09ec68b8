@@ -1,0 +1,17 @@
+
+q	java:S1121"FDefine and throw a dedicated exception instead of using a generic one.(◊èÚÌHäRMAJORZ
+CODE_SMELL
+q	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(ÆÙ¸«HãRMAJORZ
+CODE_SMELL
+ë
+java:S1149B"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ﬂ√˜‚HåRMAJORZ
+CODE_SMELL
+Ö
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ê°≤âHçRMINORZ
+CODE_SMELL
+Ö
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(ﬂ√˜‚HéRMINORZ
+CODE_SMELL
+T
+java:S1905E"(Remove this unnecessary cast to "Entry".(√Úˇ»HèRMINORZ
+CODE_SMELL

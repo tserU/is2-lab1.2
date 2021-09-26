@@ -1,0 +1,46 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
+
+import businessLogic.ForumBL;
+import database.ForumDAOInterface;
+
+class ForumBLgetBonusTest {
+
+
+	String id;
+	private ForumDAOInterface forumDAO = Mockito.mock(ForumDAOInterface.class);
+	private ForumBL sut = new ForumBL(forumDAO);
+	
+	@Test
+	@DisplayName("Test0: Id es null")
+	public void test0() {
+		id = null;
+		
+		assertThrows(Exception.class,
+		         ()->sut.getBonus(id));
+	}
+	
+	@Test
+	@DisplayName("Test1: id no es DNI ")
+	public void test1() {
+		id = "75075708K";
+		
+		assertThrows(Exception.class,
+				()->sut.getBonus(id));
+	}
+	
+	@Test
+	@DisplayName("Test2: Id tiene caracteres especiales")
+	public void test2() {
+		id ="$$075708M";
+		
+		assertThrows(Exception.class,
+				()-> sut.getBonus(id));
+	}
+
+}

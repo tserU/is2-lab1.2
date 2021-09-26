@@ -1,0 +1,94 @@
+
+{
+java:S3252c"@Use static access with "org.mockito.ArgumentMatchers" for "any".(âí¤£ûÿÿÿÿ8ŠûŠÂ/HõRCRITICALZ
+CODE_SMELL
+v
+java:S3252¡"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(‡÷”Ö8ÙıÂ‹Â/HÊRCRITICALZ
+CODE_SMELL
+v
+java:S3252€"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(–µáÈ8ÙıÂ‹Â/HÁRCRITICALZ
+CODE_SMELL
+­
+java:S1192i"wDefine a constant instead of duplicating this literal "If any exception is thrown, it is not working properly" 5 times.(ö¡¿8ğøŒÂ/HçRCRITICALZ
+CODE_SMELL
+v
+java:S3252Ü"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(‡÷”Ö8Ú”†Â/HúRCRITICALZ
+CODE_SMELL
+v
+java:S3252¾"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(–µáÈ8±ÍêŒÂ/HäRCRITICALZ
+CODE_SMELL
+v
+java:S3252¿"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(‡÷”Ö8ğøŒÂ/HåRCRITICALZ
+CODE_SMELL
+h
+java:S1117q"5Rename "u" which hides the field declared at line 28.(õ¦‹¥8ÙıÂ‹Â/HËRMAJORZ
+CODE_SMELL
+i
+java:S1117‘"5Rename "u" which hides the field declared at line 28.(õ¦‹¥8ğøŒÂ/HÂRMAJORZ
+CODE_SMELL
+v
+java:S3252"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(‡÷”Ö8Ú”†Â/HÃRCRITICALZ
+CODE_SMELL
+v
+java:S3252 "?Use static access with "org.mockito.ArgumentMatchers" for "eq".(–µáÈ8ÙıÂ‹Â/HÉRCRITICALZ
+CODE_SMELL
+|
+java:S3252}"FUse static access with "org.mockito.ArgumentMatchers" for "anyString".(Êàê¦8ÙıÂ‹Â/HÌRCRITICALZ
+CODE_SMELL
+i
+java:S1117Ì"5Rename "u" which hides the field declared at line 28.(õ¦‹¥8±ÍêŒÂ/HöRMAJORZ
+CODE_SMELL
+h
+java:S1117["5Rename "u" which hides the field declared at line 28.(õ¦‹¥8äéÆŠÂ/HáRMAJORZ
+CODE_SMELL
+|
+java:S3252A"FUse static access with "org.mockito.ArgumentMatchers" for "anyString".(Êàê¦8¬‹úôÁ/HãRCRITICALZ
+CODE_SMELL
+i
+java:S1117¯"5Rename "u" which hides the field declared at line 28.(õ¦‹¥8Ú”†Â/HâRMAJORZ
+CODE_SMELL
+v
+java:S3252Û"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(–µáÈ8±ÍêŒÂ/H÷RCRITICALZ
+CODE_SMELL
+v
+java:S3252"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(‡÷”Ö8ğøŒÂ/HºRCRITICALZ
+CODE_SMELL
+v
+java:S3252Ü"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(‡÷”Ö8±ÍêŒÂ/HùRCRITICALZ
+CODE_SMELL
+v
+java:S3252¿"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(‡÷”Ö8Ú”†Â/HæRCRITICALZ
+CODE_SMELL
+|
+java:S3252P"FUse static access with "org.mockito.ArgumentMatchers" for "anyString".(Êàê¦8Şı™ŠÂ/HôRCRITICALZ
+CODE_SMELL
+
+java:S1192"KDefine a constant instead of duplicating this literal "75075708M" 13 times.(õ¦‹¥8Şı™ŠÂ/HÎRCRITICALZ
+CODE_SMELL
+{
+java:S3252c"@Use static access with "org.mockito.ArgumentMatchers" for "any".(âí¤£ûÿÿÿÿ8ŠûŠÂ/HµRCRITICALZ
+CODE_SMELL
+†
+java:S1192t"KDefine a constant instead of duplicating this literal "dd/MM/yyyy" 4 times.(ÓÌ¤æıÿÿÿÿ8±ÍêŒÂ/H»RCRITICALZ
+CODE_SMELL
+
+java:S1192{"KDefine a constant instead of duplicating this literal "06/10/2019" 4 times.(œŞõ¬8±ÍêŒÂ/HÄRCRITICALZ
+CODE_SMELL
+|
+java:S3252^"FUse static access with "org.mockito.ArgumentMatchers" for "anyString".(Êàê¦8Şı™ŠÂ/HøRCRITICALZ
+CODE_SMELL
+‚
+java:S1192™"KDefine a constant instead of duplicating this literal "25/09/2019" 3 times.(´‹—ã8Ú”†Â/H¶RCRITICALZ
+CODE_SMELL
+€
+java:S1192"JDefine a constant instead of duplicating this literal "654478722" 6 times.(õ¦‹¥8ÙıÂ‹Â/HíRCRITICALZ
+CODE_SMELL
+{
+java:S3252c"@Use static access with "org.mockito.ArgumentMatchers" for "any".(âí¤£ûÿÿÿÿ8ŠûŠÂ/HÀRCRITICALZ
+CODE_SMELL
+
+java:S1192z"KDefine a constant instead of duplicating this literal "17/09/2019" 4 times.(øì¼É8±ÍêŒÂ/HÜRCRITICALZ
+CODE_SMELL
+v
+java:S3252¡"?Use static access with "org.mockito.ArgumentMatchers" for "eq".(‡÷”Ö8ğøŒÂ/HÍRCRITICALZ
+CODE_SMELL

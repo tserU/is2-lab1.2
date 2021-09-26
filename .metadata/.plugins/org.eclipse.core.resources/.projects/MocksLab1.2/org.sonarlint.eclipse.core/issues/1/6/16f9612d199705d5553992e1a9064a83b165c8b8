@@ -1,0 +1,23 @@
+
+
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ã›ëjH‘RMAJORZ
+CODE_SMELL
+d	java:S1060"9Replace this use of System.out or System.err by a logger.(ùáĞúH’RMAJORZ
+CODE_SMELL
+–
+java:S1149/"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(úú¾ûÿÿÿÿH“RMAJORZ
+CODE_SMELL
+„
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ã›ëjH”RMINORZ
+CODE_SMELL
+Š
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÔË°ÖøÿÿÿÿH•RMINORZ
+CODE_SMELL
+G
+java:S1116"Remove this empty statement.(ã›ëjH–RMINORZ
+CODE_SMELL
+u
+java:S1206E"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑãH—RMINORZBUG
+Š
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(úú¾ûÿÿÿÿH˜RMINORZ
+CODE_SMELL
